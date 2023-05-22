@@ -15,11 +15,11 @@ const Header = () => {
            }
         
         const navitem = <>
-          <li><Link to = '/'>Home</Link></li>
-          <li><Link>About</Link></li>
-          <li><Link>Servies</Link></li>
-          <li><Link>Blog</Link></li>
-          <li><Link to = '/addtoy'>Add a Toy</Link></li>
+          <li className='font-bold'><Link to = '/'>Home</Link></li>
+          <li className='font-bold'><Link to = '/alltoy'>All toy</Link></li>
+          <li className='font-bold'><Link>My toy</Link></li>
+          <li className='font-bold'><Link to = '/addtoy'>Add a Toy</Link></li>
+          <li className='font-bold'><Link to = '/blog'>Blog</Link></li>
            
           
            
