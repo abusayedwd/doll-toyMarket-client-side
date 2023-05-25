@@ -3,18 +3,16 @@ import img from '../../public/login/login.svg'
 import { useContext, useState } from 'react';
 import { AuthContext } from '../Providers/AuthProvider';
 import GoogleLogin from './GoogleLogin';
-// import { AuthContext } from '../../Providers/AuthProvider';
-// import SocialLogin from '../SocialL/SocialLogin';
-
+ 
 const Login = () => {
         const {signIn} = useContext(AuthContext)
         const [success, setSuccess] = useState('')
         const [error, setError] = useState('')
 
       const location = useLocation()
+      const navigate = useNavigate();
 
       const from = location.state?.from?.pathname || '/';
-      const navigate = useNavigate();
 
 
         const handleLogin = event => {
@@ -23,6 +21,8 @@ const Login = () => {
                 const email = form.email.value;
                 const password = form.password.value;
                 // console.log(email, password)
+                
+        
 
                 signIn(email, password)
                 .then(result => {

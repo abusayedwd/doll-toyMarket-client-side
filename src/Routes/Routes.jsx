@@ -7,6 +7,7 @@ import Addtoy from "./Shared/Addtoy";
 import Alltoy from "../Home/Alltoy";
 import Detailstoy from "../Home/Detailstoy";
 import Blog from "./Shared/Blog";
+import PrivateRoute from "./PrivatRoute";
 
 const router = createBrowserRouter([
         {
@@ -37,7 +38,7 @@ const router = createBrowserRouter([
                 },
                 {
                         path:'details/:id',
-                        element:<Detailstoy></Detailstoy>,
+                        element: <PrivateRoute><Detailstoy></Detailstoy></PrivateRoute>,
                         loader:({params}) => fetch(`http://localhost:5000/alltoys/${params.id}`)
                 },
                 {
