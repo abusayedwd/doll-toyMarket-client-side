@@ -20,7 +20,7 @@ const Header = () => {
 
           {user ? 
         <div className='flex'>
-                <li className='font-bold'><Link>My toy</Link></li>
+                <li className='font-bold'><Link to = '/mytoy'>My toy</Link></li>
                <li className='font-bold'><Link to = '/addtoy'>Add a Toy</Link></li>
         </div>: '' 
         }
@@ -53,7 +53,7 @@ const Header = () => {
 </div>
 <div className="navbar-end">
 
- {  user? <div className='flex gap-2'>
+ {  user?.email ? <div className='flex gap-2'>
                  <img className='w-8 rounded-full'  title={user.displayName} src={user.photoURL} alt="" /> 
                  <button  className='bg-red-300 mr-4 px-4 py-2 rounded-lg' onClick={logOuthandler}>Log Out</button> </div> :
                  <div>

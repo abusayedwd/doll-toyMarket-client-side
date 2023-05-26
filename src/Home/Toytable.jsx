@@ -9,7 +9,7 @@ const Toytable = ({toy}) => {
         <td>{seller}</td>
         <td>{name}</td>
         <td>{category}</td>
-        <td>{price}</td>
+        <td>$ {price} USD</td>
         <td>{qty}</td>
         <td> 
                 <Link to = {`/details/${_id}`}> 
