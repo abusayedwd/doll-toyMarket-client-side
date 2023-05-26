@@ -1,56 +1,65 @@
 export const photos = [
         {
-          src: "https://source.unsplash.com/fyoGx76Cm7E/800x799",
+          src: "https://source.unsplash.com/oR4ZRRtisTM/800x799",
+        //   https://media.istockphoto.com/id/1190701145/photo/choose-your-teddy-bear.jpg?s=1024x1024&w=is&k=20&c=yq-4My6sDcmlPkFLDhs9GVhTZtE6oy64aS_Y6U7mWoQ=
           width: 4,
           height: 3,
         },
         {
-          src: "https://source.unsplash.com/7JzyLiUj0pQ/800x799",
+          src: "https://source.unsplash.com/4cekUZp7RCs/800x799",
           width: 1,
           height: 1,
         },
         {
-          src: "https://source.unsplash.com/t9UQrwDrlpA/600x799",
+          src: "https://source.unsplash.com/75IgLbgqRls/600x799",
           width: 3,
           height: 4,
         },
+
         {
-          src: "https://source.unsplash.com/N8PrgBZEYdU/600x799",
+          src: "https://source.unsplash.com/pvrXG-jTbHQ/600x799",
           width: 3,
           height: 4,
         },
+
         {
-          src: "https://source.unsplash.com/YGElTTrAaHM/600x799",
+          src: "https://source.unsplash.com/84_Wk03OY_c/600x799",
           width: 3,
           height: 4,
         },
+
         {
-          src: "https://source.unsplash.com/DnTd-Snz5Ak/800x599",
+          src: "https://source.unsplash.com/UGDo3fzGKRI/800x599",
           width: 4,
           height: 3,
         },
+
         {
-          src: "https://source.unsplash.com/nRlZOmuuJwA/600x799",
+          src: "https://source.unsplash.com/_nGi9ya_eFM/600x799",
           width: 3,
           height: 4,
         },
+
         {
-          src: "https://source.unsplash.com/WafVOqBeWc8/800x599",
+          src: "https://source.unsplash.com/pu6q89QxrwQ/800x599",
           width: 4,
           height: 3,
         },
+
         {
-          src: "https://source.unsplash.com/NYbTdrBh740/800x599",
+          src: "https://source.unsplash.com/_H_HnzDvnIc/800x599",
           width: 4,
           height: 3,
         },
+
         {
-          src: "https://source.unsplash.com/drw6RtOKDiA/600x799",
+          src: "https://source.unsplash.com/8XKX_Pp55K0/600x799",
           width: 3,
           height: 4,
         },
+
         {
-          src: "https://source.unsplash.com/pGeDU93n0fQ/800x599",
+          src: "https://source.unsplash.com/fJO93yEOAQk/800x599",
           width: 4,
           height: 3,
         },

@@ -8,7 +8,7 @@ const Alltoy = () => {
         console.log(alltoys)
         return (
                 <div>
-                        <h1>all toys shows: {alltoys.length}</h1>
+                        <h1 className="text-2xl font-bold text-center my-6">All Toys: {alltoys.length}</h1>
 
                         <div className="overflow-x-auto">
   <table className="table w-full">
