@@ -10,11 +10,13 @@ import Blog from "./Shared/Blog";
 import PrivateRoute from "./PrivatRoute";
 import Mytoy from "../Mytoys/Mytoy";
 import Updatetoy from "../Mytoys/Updatetoy";
+import Notfound from "../Notfound";
 
 const router = createBrowserRouter([
         {
           path: "/",
           element: <Main></Main>,
+          errorElement:<Notfound></Notfound>,
           children:[ 
                 {
                         path:"/",

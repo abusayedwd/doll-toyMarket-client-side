@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
  
 const Updatetoy = () => {
         const updatetoy = useLoaderData();
+        
         const {description,qty, price, name, _id} = updatetoy;
         const handleUpdateToy = (e) => {
                 e.preventDefault();
@@ -11,7 +12,7 @@ const Updatetoy = () => {
                 const qty = form.qty.value;
                 const price = form.price.value;
                 const description = form.description.value;
-                 
+                 const name = form.name.value;
             
                 const  updateToy = {
                   name,
@@ -35,7 +36,7 @@ const Updatetoy = () => {
                       Swal.fire({
                         position: "center",
                         icon: "success",
-                        title: "Product update successfully!!",
+                        title: "Product added successfully!!",
                         showConfirmButton: false,
                         timer: 1500,
                       });
