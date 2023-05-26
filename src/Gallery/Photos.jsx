@@ -1,7 +1,6 @@
 export const photos = [
         {
           src: "https://source.unsplash.com/oR4ZRRtisTM/800x799",
-        //   https://media.istockphoto.com/id/1190701145/photo/choose-your-teddy-bear.jpg?s=1024x1024&w=is&k=20&c=yq-4My6sDcmlPkFLDhs9GVhTZtE6oy64aS_Y6U7mWoQ=
           width: 4,
           height: 3,
         },

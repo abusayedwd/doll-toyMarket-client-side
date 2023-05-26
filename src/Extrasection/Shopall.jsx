@@ -16,6 +16,8 @@ const Shopall = () => {
                      </div>
                 </div>
 
+
+                     <h1 className='text-3xl text-center text-green-500 font-bold mt-16'>Our Trending Doll</h1>
                  <div className='flex justify-evenly my-12'>
                         <div className='bg-sky-300 p-24'>
                               <h1  className='mb-8 text-2xl'>Exclusive nice Toy </h1> 

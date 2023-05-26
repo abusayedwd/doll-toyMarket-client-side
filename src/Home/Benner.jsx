@@ -10,7 +10,7 @@ const Benner = () => {
                     <h1 className="mb-5 text-5xl font-bold">PIC THE BEST TOY FOR YOUR KID</h1>
                     <p className="mb-5">Provident cupiditate voluptatem et in.  </p>
                     <Link to = '/alltoy'>
-                    <button className="btn btn-primary">Get Started</button>
+                    <button className="btn btn-primary">Shop Now</button>
                     </Link>
                   </div>
                 </div>
