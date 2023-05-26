@@ -5,7 +5,7 @@ import ProductsCard from '../Components/ProductsCard';
 const TabProducts = () => {
         const [toys,setToys] = useState([]);
         useEffect(()=>{
-                fetch('http://localhost:5000/alltoys')
+                fetch('https://doll-toy-server-a11.vercel.app/alltoys')
                 .then(res => res.json())
                 .then(data => setToys(data))
 

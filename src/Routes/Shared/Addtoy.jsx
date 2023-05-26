@@ -1,11 +1,11 @@
-import  { useContext, useState } from "react";
+import { useContext, useState } from "react";
 import Swal from "sweetalert2";
- 
+
 // import useTitle from "../Hooks/useTitle";
 import { AuthContext } from "../../Providers/AuthProvider";
 
 function AddToy() {
-//   useTitle("Add Toy");
+  //   useTitle("Add Toy");
   const { user } = useContext(AuthContext);
   const [category, setCategory] = useState("");
   const handleChange = (e) => {
@@ -37,7 +37,7 @@ function AddToy() {
       rating,
     };
     console.log(newToy);
-    fetch("http://localhost:5000/addtoys", {
+    fetch("https://doll-toy-server-a11.vercel.app/addtoys", {
       method: "POST",
       headers: {
         "content-type": "application/json",

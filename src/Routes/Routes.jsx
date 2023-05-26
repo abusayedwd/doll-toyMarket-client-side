@@ -25,7 +25,7 @@ const router = createBrowserRouter([
                 {
                         path:'alltoy',
                         element:<Alltoy></Alltoy>,
-                        loader: () => fetch('http://localhost:5000/alltoys')
+                        loader: () => fetch('https://doll-toy-server-a11.vercel.app/alltoys')
                 },
                 {
                        path:'login',
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
                 {
                         path:'details/:id',
                         element: <PrivateRoute><Detailstoy></Detailstoy></PrivateRoute>,
-                        loader:({params}) => fetch(`http://localhost:5000/alltoys/${params.id}`)
+                        loader:({params}) => fetch(`https://doll-toy-server-a11.vercel.app/alltoys/${params.id}`)
                 },
                 {
                         path:'blog',
@@ -56,7 +56,7 @@ const router = createBrowserRouter([
                 {
                         path:'updatetoy/:id',
                         element:<Updatetoy></Updatetoy>,
-                        loader: ({params}) => fetch(`http://localhost:5000/addtoys/${params.id}`)
+                        loader: ({params}) => fetch(`https://doll-toy-server-a11.vercel.app/addtoys/${params.id}`)
                         
                 }
           ]

@@ -45,6 +45,7 @@ const Header = () => {
 <Link to='/' className=" mt-2 normal-case text-xl">
  <img className='h-20 md:ml-8' src={logo} alt="" />
 </Link>
+<h1 className='text-2xl font-bold text-emerald-700'>KIDOLL-TOY</h1>
 </div>
 <div className="navbar-center hidden lg:flex">
 <ul className="menu menu-horizontal px-1">
