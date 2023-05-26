@@ -31,11 +31,13 @@ const Mytoyraw = ({mytoy, handleDelete}) => {
         <td>
           $ {price} USD
         </td>
-        <td>{qty}</td>
+        <td>
+            {qty}
+        </td>
         <td className="flex">
               
-                <Link to = {`/updatetoy/${_id}`} className="mr-8"><FaEdit></FaEdit></Link>
-                <Link  onClick={() => handleDelete(_id)}><FaTrashAlt></FaTrashAlt></Link>
+                <Link  to = {`/updatetoy/${_id}`} className="mr-8 flex items-center mt-2"><FaEdit></FaEdit> update</Link>
+                <Link className=" flex items-center mt-2"  onClick={() => handleDelete(_id)}><FaTrashAlt></FaTrashAlt>delete</Link>
         </td>
          
       </tr>    

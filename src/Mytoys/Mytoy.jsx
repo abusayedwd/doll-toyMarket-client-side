@@ -63,7 +63,7 @@ if (result.isConfirmed) {
         <th>Product</th>
         <th>Seller</th>
         <th>Price</th>
-        <th>Stock</th>
+        <th>Quantity</th>
         <th>Action</th>
       </tr>
     </thead>
