@@ -34,7 +34,7 @@ const Mytoyraw = ({mytoy, handleDelete}) => {
         <td>{qty}</td>
         <td className="flex">
               
-                <Link  className="mr-8"><FaEdit></FaEdit></Link>
+                <Link to = {`/updatetoy/${_id}`} className="mr-8"><FaEdit></FaEdit></Link>
                 <Link  onClick={() => handleDelete(_id)}><FaTrashAlt></FaTrashAlt></Link>
         </td>
          

@@ -38,7 +38,7 @@ if (result.isConfirmed) {
 
                 Swal.fire(
                         'Deleted!',
-                        'Your file has been deleted.',
+                        'Your toy has been deleted.',
                         'success' 
                 )
            const remaining = mytoys.filter(mytoy => mytoy._id !== id);  
