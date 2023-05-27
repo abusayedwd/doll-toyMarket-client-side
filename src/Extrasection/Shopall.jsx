@@ -16,22 +16,24 @@ const Shopall = () => {
                      </div>
                 </div>
 
+                      
 
                      <h1 className='text-3xl text-center text-green-500 font-bold mt-16'>Our Trending Doll</h1>
-                 <div className='flex justify-evenly my-12'>
-                        <div className='bg-sky-300 p-24'>
+                 <div className=' grid gap-8 md:grid-cols-2 grid-cols-1 my-12'>
+                        <div className='bg-sky-300 p-24 rounded-xl'>
                               <h1  className='mb-8 text-2xl'>Exclusive nice Toy </h1> 
                               <Link to = '/alltoy'>
                               <button className='bg-gray-400 px-6 py-3 rounded-xl font-bold hover:bg-orange-300'>SHOP NOW</button>
                               </Link>  
                         </div>
-                        <div className='bg-sky-600 p-24'>
+                        <div className='bg-sky-600 p-24 rounded-xl'>
                         <h1 className='mb-8 text-2xl'> Hight Quality Toy </h1> 
                               <Link to = '/alltoy'>
                               <button className='bg-gray-400 px-6 py-3 rounded-xl font-bold hover:bg-orange-300'>SHOP NOW</button>
                               </Link>      
                         </div>
                  </div>
+                 
                </div>
         );
 };

@@ -28,7 +28,7 @@ const TabProducts = () => {
                
                  
                 <TabPanel>
-                  <div className='grid grid-cols-3 gap-3'>
+                  <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
                   {
                         babyDoll.map(item => <ProductsCard key={item._id} item={item}/>)
                   }
@@ -36,14 +36,14 @@ const TabProducts = () => {
                 </TabPanel>
                 
                 <TabPanel>
-                <div className='grid grid-cols-3 gap-3'>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
                   {
                         barbieDoll.map(item => <ProductsCard key={item._id} item={item}/>)
                   }
                    </div>
                 </TabPanel>
                 <TabPanel>
-                <div className='grid grid-cols-3 gap-3'>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
                   {
                         americanDoll.map(item => <ProductsCard key={item._id} item={item}/>)
                   }

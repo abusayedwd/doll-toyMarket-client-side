@@ -36,7 +36,7 @@ const Updatetoy = () => {
                       Swal.fire({
                         position: "center",
                         icon: "success",
-                        title: "Product added successfully!!",
+                        title: "Product Update successfully!!",
                         showConfirmButton: false,
                         timer: 1500,
                       });
