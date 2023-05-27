@@ -28,15 +28,9 @@ const AuthProvider = ({children}) => {
                 setLoading(true)
                 return signInWithPopup(auth, googleProvider)
          }
-         const userUpdate = ( user, name, photo) =>{
-                setLoading(true)
-                   updateProfile(user, {displayName: name, photoURL:photo})
-                  .then( () => {
-                        setUser('user update')
-                  })
-                  .catch(error => {
-                        console.log(error.message)
-                  })
+         const userUpdate = (userData) =>{
+              return  updateProfile(auth.currentUser,userData)
+                   
           }
 
         useEffect( () => {

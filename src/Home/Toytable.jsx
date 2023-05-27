@@ -3,7 +3,10 @@
 const Toytable = ({toy}) => {
         const {seller, name, price,qty,category,_id} = toy;
         return (
-                 
+
+             <>
+            
+             
        <tr>
         <td>{seller}</td>
         <td>{name}</td>
@@ -16,6 +19,8 @@ const Toytable = ({toy}) => {
                 </Link>
         </td>
       </tr>
+             </>   
+                 
     
    
  
