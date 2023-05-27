@@ -54,7 +54,7 @@ const Updatetoy = () => {
               };
               return (
                 <div>
-                  <div className="w-full px-4 lg:px-8 lg:w-2/3 bg-slate-100 mx-auto p-10 rounded-lg my-6 ">
+                  <div className="w-full px-4 lg:px-8 lg:w-2/3 bg-sky-100 mx-auto p-10 rounded-lg my-6 ">
                     <h1 className="text-3xl font-bold text-[#ff6899] mb-6">Update Toy : {name}</h1>
                     <form onSubmit={handleUpdateToy}>
                       <div >
@@ -94,7 +94,7 @@ const Updatetoy = () => {
                       ></textarea>
                       <input
                         type="submit"
-                        className="btn hover:bg-[#2EBFED] hover:border-[#2EBFED] border-[#ff6899] bg-[#ff6899] w-full"
+                        className="btn hover:bg-orange-300 hover:border-[#2EBFED] border-[#ff6899] bg-blue-400 w-full"
                         value="Update Toy"
                       />
                     </form>
