@@ -3,7 +3,7 @@
 
 const Benner = () => {
         return (
-                <div className="hero h-96" style={{ backgroundImage: `url(${benner})` }}>
+                <div className="hero h-[600px]" style={{ backgroundImage: `url(${benner})` }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
                   <div className="max-w-md">

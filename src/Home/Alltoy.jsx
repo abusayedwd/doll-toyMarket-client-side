@@ -8,7 +8,7 @@ const Alltoy = () => {
         const alltoys = useLoaderData(); 
         return (
                 <div>
-                        <h1 className="text-2xl font-bold text-center my-6">All Toys: {alltoys.length}</h1>
+                        <h1 className="text-2xl mt-28 font-bold text-center my-6 text-orange-300">All Toys: {alltoys.length}</h1>
 
                          
 

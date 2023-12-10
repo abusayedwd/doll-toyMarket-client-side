@@ -52,7 +52,7 @@ if (result.isConfirmed) {
 
         return (
                 <div>
-                        <h1 className="text-2xl text-orange-300 text-center my-8 font-bold">My Toy : {mytoys.length} </h1>
+                        <h1 className="text-2xl mt-20 text-orange-300 text-center my-8 font-bold">My Toy : {mytoys.length} </h1>
 
                         <div className="overflow-x-auto w-full mb-16">
   <table className="table w-full">

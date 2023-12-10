@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
         return (
-                <div className='w-[75%] mx-auto'>
+                <div className='w-[75%] mx-auto mt-20'>
                         <h1 className='text-3xl font-serif font-bold text-center m-10'>Question & Answer </h1>
                         <div className='mt-8'>
                         <p className='font-bold'><span className=' text-slate-500'>question :</span>What is an access token and refresh token? How do they work and where should we store them on the client-side?</p>
