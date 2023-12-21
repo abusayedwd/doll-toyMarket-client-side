@@ -1,4 +1,4 @@
-import React from 'react';
+ 
 
 const Blog = () => {
         return (
@@ -7,9 +7,9 @@ const Blog = () => {
                         <div className='mt-8'>
                         <p className='font-bold'><span className=' text-slate-500'>question :</span>What is an access token and refresh token? How do they work and where should we store them on the client-side?</p>
                         <p className='text-slate-400 font-bold'><span className='font-bold underline'>Answer :</span>
-                        Refresh tokens allow you to balance your users' access needs with your organization's security practices. Access tokens help users get the resources they need to complete their tasks, but such tokens can also expose your organization to data compromise or other malicious actions if a hacker is able to steal them. <br />
+                        Refresh tokens allow you to balance your users access needs with your organizations security practices. Access tokens help users get the resources they need to complete their tasks, but such tokens can also expose your organization to data compromise or other malicious actions if a hacker is able to steal them. <br />
                         
-                        In web development, 'client side' refers to everything in a web application that is displayed or takes place on the client (end user device). This includes what the user sees, such as text, images, and the rest of the UI, along with any actions that an application performs within the users browser.
+                        In web development, client side refers to everything in a web application that is displayed or takes place on the client (end user device). This includes what the user sees, such as text, images, and the rest of the UI, along with any actions that an application performs within the users browser.
                         </p>
                         </div>
 
