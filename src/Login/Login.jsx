@@ -40,7 +40,7 @@ const Login = () => {
 
         }
         return (
-                <div className="hero min-h-screen bg-base-200">
+                <div className="hero min-h-screen bg-base-200 mt-12">
                 <div className="hero-content flex-col lg:flex-row">
                   <div className=" w-1/2 mr-6">
                      <img src= {img} alt="" />
@@ -70,7 +70,7 @@ const Login = () => {
                       <div className="form-control mt-6">
                        
                         <input className="btn btn-primary" type="submit" value="Login" />
-                 <p className='text-center my-4'>New to car docrtors ? <Link className='text-orange-500 text-xl font-bold' to = '/signup'>SignUp</Link></p>
+                 <p className='text-center my-4'>New to kidoll-toy ? <Link className='text-orange-500 text-xl font-bold' to = '/signup'>SignUp</Link></p>
 
                  <GoogleLogin></GoogleLogin>
                   
